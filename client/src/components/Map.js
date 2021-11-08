@@ -1,8 +1,8 @@
-import { MapContainer, TileLayer} from "react-leaflet";
-
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 
 function Map(props) {
-
+  fetch("/api")
+  
   return (
     <MapContainer
       center={props.center}
